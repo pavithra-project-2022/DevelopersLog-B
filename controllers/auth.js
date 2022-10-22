@@ -52,7 +52,7 @@ export const login = async (req, res, next) => {
 
     const token = jwt.sign(
       { id: user._id, isAdmin: user.isAdmin },
-      "8hEnPGeoBqGUT6zksxt4G95gW+uMdzwe7EVaRnp0xRI="
+      process.env.JWT
     );
 
     const { password,confirmPassword, ...otherDetails } = user._doc;

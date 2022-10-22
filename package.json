@@ -1,15 +1,22 @@
 {
-  "name": "backend",
+  "name": "dl-b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavithra-project-2022/DevelopersLog-B.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavithra-project-2022/DevelopersLog-B/issues"
+  },
+  "homepage": "https://github.com/pavithra-project-2022/DevelopersLog-B#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
