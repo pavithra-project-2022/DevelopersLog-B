@@ -1,7 +1,6 @@
 {
   "name": "dl-b",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "engines": {
     "node": "18.x",
@@ -32,5 +31,7 @@
     "mongoose": "^6.6.7",
     "nodemon": "^2.0.20",
     "react-moment": "^1.1.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
